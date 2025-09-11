@@ -72,6 +72,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
+.Melixir_text { 
+  font-family: "Cardo", serif; font-weight: 700; font-size: 80px; font-style: normal;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
 p {
   margin-top: 0;
   margin-bottom: 1rem; }
@@ -8933,7 +8939,7 @@ h1, h2, h3, h4, h5,
 
 .project {
   width: 100%;
-  height: 350px;
+  height: 600px;
   margin-bottom: 0;
   position: relative;
   z-index: 0; }
@@ -8986,15 +8992,15 @@ h1, h2, h3, h4, h5,
     -webkit-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease; }
-    .project .text h3 {
-      font-size: 20px; }
-      .project .text h3 a {
+    .project .Melixir_text {
+      font-family: "Cardo", serif; font-weight: 400; font-size: 80px; font-style: normal; }
+      .project .Melixir_text a {
         color: #fff; }
     .project .text span {
       color: rgba(255, 255, 255, 0.8);
       text-transform: uppercase;
       letter-spacing: 2px;
-      font-size: 12px;
+      font-size: 14px;
       font-weight: 600; }
     @media (max-width: 767.98px) {
       .project .text {
